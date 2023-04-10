@@ -1,0 +1,39 @@
+
+.about_content {
+    max-width: 800px; /* Set the maximum width of the content */
+    text-align: center;
+
+}
+  
+.about_container{
+    display: grid;
+    grid-template-columns: 55% 50%;
+    gap: 15%;
+    height: 100vh;
+}
+
+
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+
+}
+
+.about_card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.about_icon{
+    color: var(--color-primary);
+}
+
+.about_content p {
+    margin: 2rem 0 2.6rem;
+}
