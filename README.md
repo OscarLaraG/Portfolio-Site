@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Direct link: https://portfolio-site-git-main-oscarlarags-projects.vercel.app/
+
 
 ## Available Scripts
 
