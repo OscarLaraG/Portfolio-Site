@@ -56,7 +56,19 @@ const Experience = () => {
             </article>
             <article className='experience_details'>
             <BsFillPatchCheckFill className='experience_details_icon'/>
-              <h4>Postman</h4>
+              <h4>Requests</h4>
+            </article>
+            <article className='experience_details'>
+            <BsFillPatchCheckFill className='experience_details_icon'/>
+              <h4>PANDAS</h4>
+            </article>
+            <article className='experience_details'>
+            <BsFillPatchCheckFill className='experience_details_icon'/>
+              <h4>SQL</h4>
+            </article>
+            <article className='experience_details'>
+            <BsFillPatchCheckFill className='experience_details_icon'/>
+              <h4>Web - Scraping</h4>
             </article>
             
         </div>

@@ -18,22 +18,28 @@ const About = () => {
             <article className="about_card">
               <ImBooks className="about_icon"/>
               <h5>Academics</h5>
-              <small>PLaceholder</small>
+              <ul><small><li>Hunter College Graduate</li>
+              <li>Computer Science Major</li>
+              <li>CodePath Certified Student</li>
+              </small></ul>
             </article>
             <article className="about_card">
               <GiSuitcase className="about_icon"/>
               <h5>Experience</h5>
-              <small>PLaceholder</small>
+              <small>CodeSpeak Labs - Coding Coach</small>
             </article>
             <article className="about_card">
               <GiSoccerBall className="about_icon"/>
               <h5>Interests</h5>
-              <small>placeholder</small>
+              <ul><small><li>Football</li>
+              <li>Sneakers</li>
+              <li>Gaming</li>
+              </small></ul>
             </article>
           </div>
           <p>
-            Computer Science student, with a focus on full-stack development.
-            With projects on Data Science, Automation, and a mobile application.
+            Hunter College Computer Science Graduate, with a focus on Data Science.
+            
           </p>
 
           <a href="#contact" className='btn btn-primary'>Wanna talk?</a>

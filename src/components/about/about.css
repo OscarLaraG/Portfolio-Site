@@ -5,19 +5,25 @@
 
 }
   
-.about_container{
-    display: grid;
-    grid-template-columns: 55% 50%;
-    gap: 15%;
+.about_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
 
-.about_cards{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
 
+.about_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* Additional styles to shape the cards */
+.about_cards > :nth-child(3) {
+    grid-column: span 2; /* Make the third card span two columns */
+    grid-row: 2; /* Place the third card in the second row */
 }
 
 .about_card{

@@ -2,20 +2,42 @@
     width: 58%;
     display: grid;
     grid-template-rows: 30% 58%;
-    gap: 12rem
+    gap: 12rem;
+    color: white;
+}
+
+.container {
+    margin-bottom: 50px;
 }
 
 .contact_options{
     display: flex;
     flex-direction: column;
     gap:1.2rem;
+    color: white;
 }
 
 .contact_option{
-    background: var(--color-primary-variant);
+    background: var(--color-white);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transform: var(--transition);
+    color: white; /* Add this line to set text color to white */
+}
+
+.contact_button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none; /* Remove default underline */
+}
+
+.contact_button:hover {
+    background-color: white;
+    color: red;
 }
